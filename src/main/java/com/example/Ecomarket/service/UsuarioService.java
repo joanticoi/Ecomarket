@@ -1,7 +1,7 @@
-package com.hospital_vm.cl.hospital_vm.service;
+package com.example.Ecomarket.service;
 
-import com.hospital_vm.cl.hospital_vm.model.Usuario;
-import com.hospital_vm.cl.hospital_vm.repository.UsuarioRepository;
+import com.example.Ecomarket.model.Usuario;
+import com.example.Ecomarket.repository.UsuarioRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

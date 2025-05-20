@@ -1,7 +1,7 @@
-package com.hospital_vm.cl.hospital_vm.service;
+package com.example.Ecomarket.service;
 
-import com.hospital_vm.cl.hospital_vm.model.Libros;
-import com.hospital_vm.cl.hospital_vm.repository.LibroRepository;
+import com.example.Ecomarket.model.Libros;
+import com.example.Ecomarket.repository.LibroRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,7 +17,7 @@ public class LibroService {
 
     public List<Libros> BuscarTodosLosPacientes() {
         
-        return LibroRepository.findAll();
+        return LibroRepository.librodAll();
     }
 
     public Libros BuscarPorId(long id) {

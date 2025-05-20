@@ -1,4 +1,4 @@
-package com.hospital_vm.cl.hospital_vm.model;
+package com.example.Ecomarket.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

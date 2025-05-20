@@ -1,7 +1,7 @@
-package com.hospital_vm.cl.hospital_vm.repository;
+package com.example.Ecomarket.repository;
 
 
-import com.hospital_vm.cl.hospital_vm.model.Usuario;
+import com.example.Ecomarket.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

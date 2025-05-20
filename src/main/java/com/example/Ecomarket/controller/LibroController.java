@@ -1,7 +1,7 @@
-package com.hospital_vm.cl.hospital_vm.controller;
+package com.example.Ecomarket.controller;
 
-import com.hospital_vm.cl.hospital_vm.model.Libros;
-import com.hospital_vm.cl.hospital_vm.service.LibroService;
+import com.example.Ecomarket.model.Libros;
+import com.example.Ecomarket.service.LibroService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
